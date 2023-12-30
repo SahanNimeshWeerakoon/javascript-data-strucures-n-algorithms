@@ -9,6 +9,7 @@ let data = [1, 2, 3, 4, 4, 5];
 
 let set = new Set(data); // initialize a set
 set.add(6); // add element to set
+console.log(set.has(4)); // check if contains element
 set.delete(2); // remove element from set
 let setSize = set.size; // get the size of the set
 set.clear(); // clear data in the set
